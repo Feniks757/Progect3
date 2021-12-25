@@ -22,8 +22,20 @@ def check_login(login):
 
 def check_password(password):
     '''function to check the password in the database'''
-    pass
+    connection = sqlite3.connect(DB_FILE_PATH)
+    cursor = connection.cursor()
+    query = f'SELECT password FROM users WHERE password == "{password}"'
+    cursor.execute(query)
+    cursor_result = cursor.fetchone()
+    if cursor_result:
+        result = True
+    else:
+        result = False
+    return result
+
 
 
 if __name__ == "__main__":
     check_login('admin')
+if __name__ == "__main__":
+    check_password('admin')

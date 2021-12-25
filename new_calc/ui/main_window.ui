@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>680</width>
-    <height>769</height>
+    <height>777</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -174,7 +174,7 @@ border:0;
                </widget>
               </item>
               <item row="9" column="1">
-               <widget class="QLineEdit" name="milk_gk_inp_2">
+               <widget class="QLineEdit" name="obesity_inp">
                 <property name="maximumSize">
                  <size>
                   <width>200</width>
@@ -268,7 +268,7 @@ border:0;
                </widget>
               </item>
               <item row="10" column="1">
-               <widget class="QLineEdit" name="milk_gk_inp_3">
+               <widget class="QLineEdit" name="density_inp">
                 <property name="maximumSize">
                  <size>
                   <width>200</width>
@@ -378,7 +378,7 @@ border:0;
                </widget>
               </item>
               <item row="19" column="1">
-               <widget class="QLineEdit" name="milk_gk_inp_6">
+               <widget class="QLineEdit" name="somo_milk_inp">
                 <property name="maximumSize">
                  <size>
                   <width>200</width>
@@ -408,7 +408,7 @@ border:0;
                </widget>
               </item>
               <item row="20" column="1">
-               <widget class="QLineEdit" name="milk_gk_inp_7">
+               <widget class="QLineEdit" name="dr_matter_inp">
                 <property name="maximumSize">
                  <size>
                   <width>200</width>
@@ -431,7 +431,7 @@ border:0;
                </widget>
               </item>
               <item row="14" column="1">
-               <widget class="QLineEdit" name="milk_gk_inp_4">
+               <widget class="QLineEdit" name="obesity2_inp">
                 <property name="maximumSize">
                  <size>
                   <width>200</width>
@@ -448,7 +448,7 @@ border:0;
                </widget>
               </item>
               <item row="15" column="1">
-               <widget class="QLineEdit" name="milk_gk_inp_5">
+               <widget class="QLineEdit" name="density2_inp">
                 <property name="maximumSize">
                  <size>
                   <width>200</width>
@@ -568,67 +568,47 @@ border:0;
               <property name="bottomMargin">
                <number>50</number>
               </property>
-              <item row="12" column="0">
-               <widget class="QLabel" name="density_milk_3">
+              <item row="6" column="0">
+               <widget class="QLabel" name="calc_milk_title_6">
                 <property name="maximumSize">
                  <size>
                   <width>16777215</width>
                   <height>40</height>
                  </size>
                 </property>
+                <property name="font">
+                 <font>
+                  <weight>75</weight>
+                  <bold>true</bold>
+                 </font>
+                </property>
                 <property name="text">
-                 <string>Содержание жира(%)</string>
+                 <string>Расчет содержания жира в сухом веществе (%)</string>
                 </property>
                </widget>
               </item>
-              <item row="10" column="0">
-               <widget class="Line" name="line_5">
-                <property name="orientation">
-                 <enum>Qt::Horizontal</enum>
+              <item row="22" column="0">
+               <widget class="QLabel" name="label_5">
+                <property name="text">
+                 <string>Базистая жирность молока(%)</string>
                 </property>
                </widget>
               </item>
-              <item row="13" column="0">
-               <widget class="QLabel" name="obesity_milk_3">
+              <item row="16" column="0">
+               <widget class="QPushButton" name="pushButton_8">
                 <property name="maximumSize">
                  <size>
-                  <width>16777215</width>
+                  <width>200</width>
                   <height>40</height>
                  </size>
                 </property>
                 <property name="text">
-                 <string>Жирность молока проверяемой пробы</string>
-                </property>
-               </widget>
-              </item>
-              <item row="8" column="0">
-               <widget class="QLabel" name="obesity_milk_4">
-                <property name="maximumSize">
-                 <size>
-                  <width>16777215</width>
-                  <height>40</height>
-                 </size>
-                </property>
-                <property name="text">
-                 <string>Cодержание СОМО(%)</string>
-                </property>
-               </widget>
-              </item>
-              <item row="7" column="0">
-               <widget class="QLabel" name="fat_cream_2">
-                <property name="maximumSize">
-                 <size>
-                  <width>16777215</width>
-                  <height>40</height>
-                 </size>
-                </property>
-                <property name="text">
-                 <string>Жирность молока проверяемой пробы(%)</string>
+                 <string>Рассчитать</string>
                 </property>
                </widget>
               </item>
               <item row="2" column="1">
-               <widget class="QLineEdit" name="milk_gk_inp_10">
+               <widget class="QLineEdit" name="obesity_milk_inp_2">
                 <property name="maximumSize">
                  <size>
                   <width>200</width>
@@ -644,8 +624,8 @@ border:0;
                 </property>
                </widget>
               </item>
-              <item row="20" column="0">
-               <widget class="QLabel" name="dry_matter_2">
+              <item row="12" column="0">
+               <widget class="QLabel" name="density_milk_3">
                 <property name="maximumSize">
                  <size>
                   <width>16777215</width>
@@ -653,26 +633,67 @@ border:0;
                  </size>
                 </property>
                 <property name="text">
-                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Количесттво молока(л)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-                </property>
-                <property name="scaledContents">
-                 <bool>false</bool>
+                 <string>Содержание жира(%)</string>
                 </property>
                </widget>
               </item>
-              <item row="22" column="1">
-               <widget class="QLabel" name="water_in_milk_ans_2">
+              <item row="9" column="0">
+               <widget class="QPushButton" name="pushButton_5">
                 <property name="maximumSize">
                  <size>
                   <width>200</width>
                   <height>40</height>
                  </size>
                 </property>
-                <property name="styleSheet">
-                 <string notr="true">background-color: rgb(167, 188, 255);</string>
+                <property name="text">
+                 <string>Рассчитать</string>
+                </property>
+               </widget>
+              </item>
+              <item row="20" column="0">
+               <widget class="QLabel" name="label_3">
+                <property name="text">
+                 <string>Количество молока фактической жирности(кг)</string>
+                </property>
+               </widget>
+              </item>
+              <item row="21" column="0">
+               <widget class="QLabel" name="label_4">
+                <property name="text">
+                 <string>Фактическая жирность(%)</string>
+                </property>
+               </widget>
+              </item>
+              <item row="23" column="0">
+               <widget class="QPushButton" name="pushButton_9">
+                <property name="maximumSize">
+                 <size>
+                  <width>200</width>
+                  <height>40</height>
+                 </size>
                 </property>
                 <property name="text">
-                 <string/>
+                 <string>Рассчитать</string>
+                </property>
+               </widget>
+              </item>
+              <item row="8" column="1">
+               <widget class="QLineEdit" name="somo_inp">
+                <property name="maximumSize">
+                 <size>
+                  <width>200</width>
+                  <height>40</height>
+                 </size>
+                </property>
+               </widget>
+              </item>
+              <item row="22" column="1">
+               <widget class="QLineEdit" name="base_dens_inp">
+                <property name="maximumSize">
+                 <size>
+                  <width>200</width>
+                  <height>40</height>
+                 </size>
                 </property>
                </widget>
               </item>
@@ -695,13 +716,150 @@ border:0;
                 </property>
                </widget>
               </item>
-              <item row="15" column="1">
-               <widget class="QLineEdit" name="milk_gk_inp_11">
+              <item row="8" column="0">
+               <widget class="QLabel" name="obesity_milk_4">
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>40</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>Cодержание СОМО(%)</string>
+                </property>
+               </widget>
+              </item>
+              <item row="13" column="0">
+               <widget class="QLabel" name="obesity_milk_3">
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>40</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>Жирность молока проверяемой пробы</string>
+                </property>
+               </widget>
+              </item>
+              <item row="16" column="1">
+               <widget class="QLabel" name="double_f_ans">
                 <property name="maximumSize">
                  <size>
                   <width>200</width>
                   <height>40</height>
                  </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(167, 188, 255);</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="0">
+               <widget class="QLabel" name="milk_kg_2">
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>40</height>
+                 </size>
+                </property>
+                <property name="layoutDirection">
+                 <enum>Qt::LeftToRight</enum>
+                </property>
+                <property name="text">
+                 <string>Содержание жира(%)</string>
+                </property>
+               </widget>
+              </item>
+              <item row="20" column="1">
+               <widget class="QLineEdit" name="milk_fack_dens_inp">
+                <property name="maximumSize">
+                 <size>
+                  <width>200</width>
+                  <height>40</height>
+                 </size>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="1">
+               <widget class="QLineEdit" name="fat_milk_et_inp_3">
+                <property name="maximumSize">
+                 <size>
+                  <width>200</width>
+                  <height>40</height>
+                 </size>
+                </property>
+               </widget>
+              </item>
+              <item row="13" column="1">
+               <widget class="QLineEdit" name="fat_skim_inp_2">
+                <property name="maximumSize">
+                 <size>
+                  <width>200</width>
+                  <height>40</height>
+                 </size>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="1">
+               <widget class="QLabel" name="skim_in_milk_ans">
+                <property name="maximumSize">
+                 <size>
+                  <width>200</width>
+                  <height>40</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(167, 188, 255);</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+              <item row="15" column="0">
+               <widget class="QLabel" name="somo_milk_2">
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>40</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>Содержание СОМО в молоке проверяемой пробы</string>
+                </property>
+               </widget>
+              </item>
+              <item row="14" column="0">
+               <widget class="QLabel" name="density_milk_4">
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>40</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>Содержание СОМО(%)</string>
+                </property>
+               </widget>
+              </item>
+              <item row="14" column="1">
+               <widget class="QLineEdit" name="somo_inp_2">
+                <property name="maximumSize">
+                 <size>
+                  <width>200</width>
+                  <height>40</height>
+                 </size>
+                </property>
+               </widget>
+              </item>
+              <item row="10" column="0">
+               <widget class="Line" name="line_5">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
                 </property>
                </widget>
               </item>
@@ -718,7 +876,7 @@ border:0;
                 </property>
                </widget>
               </item>
-              <item row="23" column="0">
+              <item row="19" column="0">
                <widget class="QLabel" name="label_2">
                 <property name="maximumSize">
                  <size>
@@ -737,8 +895,24 @@ border:0;
                 </property>
                </widget>
               </item>
-              <item row="9" column="1">
-               <widget class="QLabel" name="dry_matter_ans_2">
+              <item row="7" column="0">
+               <widget class="QLabel" name="fat_cream_2">
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>40</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>Жирность молока проверяемой пробы(%)</string>
+                </property>
+               </widget>
+              </item>
+              <item row="23" column="1">
+               <widget class="QLabel" name="milk_sale_ans">
+                <property name="enabled">
+                 <bool>true</bool>
+                </property>
                 <property name="maximumSize">
                  <size>
                   <width>200</width>
@@ -753,104 +927,23 @@ border:0;
                 </property>
                </widget>
               </item>
-              <item row="19" column="0">
-               <widget class="QLabel" name="calc_milk_title_7">
-                <property name="maximumSize">
-                 <size>
-                  <width>16777215</width>
-                  <height>40</height>
-                 </size>
-                </property>
-                <property name="font">
-                 <font>
-                  <weight>75</weight>
-                  <bold>true</bold>
-                 </font>
-                </property>
-                <property name="text">
-                 <string>Перевод литров молока в килограммы (кг)</string>
-                </property>
-               </widget>
-              </item>
-              <item row="26" column="1">
-               <widget class="QLineEdit" name="lineEdit_5">
+              <item row="15" column="1">
+               <widget class="QLineEdit" name="somo_et_inp">
                 <property name="maximumSize">
                  <size>
                   <width>200</width>
-                  <height>16777215</height>
-                 </size>
-                </property>
-               </widget>
-              </item>
-              <item row="14" column="0">
-               <widget class="QLabel" name="density_milk_4">
-                <property name="maximumSize">
-                 <size>
-                  <width>16777215</width>
                   <height>40</height>
                  </size>
-                </property>
-                <property name="text">
-                 <string>Содержание СОМО(%)</string>
                 </property>
                </widget>
               </item>
               <item row="12" column="1">
-               <widget class="QLineEdit" name="milk_gk_inp_9">
+               <widget class="QLineEdit" name="fat_milk_inp_5">
                 <property name="maximumSize">
                  <size>
                   <width>200</width>
                   <height>40</height>
                  </size>
-                </property>
-               </widget>
-              </item>
-              <item row="21" column="1">
-               <widget class="QLineEdit" name="lineEdit_2">
-                <property name="maximumSize">
-                 <size>
-                  <width>200</width>
-                  <height>40</height>
-                 </size>
-                </property>
-               </widget>
-              </item>
-              <item row="16" column="0">
-               <widget class="QPushButton" name="pushButton_8">
-                <property name="maximumSize">
-                 <size>
-                  <width>200</width>
-                  <height>40</height>
-                 </size>
-                </property>
-                <property name="text">
-                 <string>Рассчитать</string>
-                </property>
-               </widget>
-              </item>
-              <item row="22" column="0">
-               <widget class="QPushButton" name="pushButton_6">
-                <property name="maximumSize">
-                 <size>
-                  <width>200</width>
-                  <height>40</height>
-                 </size>
-                </property>
-                <property name="text">
-                 <string>Рассчитать</string>
-                </property>
-               </widget>
-              </item>
-              <item row="15" column="0">
-               <widget class="QLabel" name="somo_milk_2">
-                <property name="maximumSize">
-                 <size>
-                  <width>16777215</width>
-                  <height>40</height>
-                 </size>
-                </property>
-                <property name="text">
-                 <string>Содержание СОМО в молоке проверяемой пробы</string>
                 </property>
                </widget>
               </item>
@@ -873,15 +966,8 @@ border:0;
                 </property>
                </widget>
               </item>
-              <item row="21" column="0">
-               <widget class="QLabel" name="label">
-                <property name="text">
-                 <string>Плотность молока(*)</string>
-                </property>
-               </widget>
-              </item>
-              <item row="3" column="1">
-               <widget class="QLineEdit" name="fat_milk_inp_2">
+              <item row="21" column="1">
+               <widget class="QLineEdit" name="milk_fact_inp">
                 <property name="maximumSize">
                  <size>
                   <width>200</width>
@@ -890,25 +976,18 @@ border:0;
                 </property>
                </widget>
               </item>
-              <item row="25" column="0">
-               <widget class="QLabel" name="label_4">
-                <property name="text">
-                 <string>Фактическая жирность(%)</string>
+              <item row="7" column="1">
+               <widget class="QLineEdit" name="fat_cream_inp_2">
+                <property name="maximumSize">
+                 <size>
+                  <width>200</width>
+                  <height>40</height>
+                 </size>
                 </property>
                </widget>
               </item>
-              <item row="26" column="0">
-               <widget class="QLabel" name="label_5">
-                <property name="text">
-                 <string>Базистая жирность молока(%)</string>
-                </property>
-               </widget>
-              </item>
-              <item row="27" column="1">
-               <widget class="QLabel" name="label_6">
-                <property name="enabled">
-                 <bool>false</bool>
-                </property>
+              <item row="9" column="1">
+               <widget class="QLabel" name="fat_suh_ans">
                 <property name="maximumSize">
                  <size>
                   <width>200</width>
@@ -920,62 +999,6 @@ border:0;
                 </property>
                 <property name="text">
                  <string/>
-                </property>
-               </widget>
-              </item>
-              <item row="8" column="1">
-               <widget class="QLineEdit" name="milk_gk_inp_8">
-                <property name="maximumSize">
-                 <size>
-                  <width>200</width>
-                  <height>40</height>
-                 </size>
-                </property>
-               </widget>
-              </item>
-              <item row="2" column="0">
-               <widget class="QLabel" name="milk_kg_2">
-                <property name="maximumSize">
-                 <size>
-                  <width>16777215</width>
-                  <height>40</height>
-                 </size>
-                </property>
-                <property name="layoutDirection">
-                 <enum>Qt::LeftToRight</enum>
-                </property>
-                <property name="text">
-                 <string>Содержание жира(%)</string>
-                </property>
-               </widget>
-              </item>
-              <item row="13" column="1">
-               <widget class="QLineEdit" name="milk_gk_inp_14">
-                <property name="maximumSize">
-                 <size>
-                  <width>200</width>
-                  <height>40</height>
-                 </size>
-                </property>
-               </widget>
-              </item>
-              <item row="25" column="1">
-               <widget class="QLineEdit" name="lineEdit_3">
-                <property name="maximumSize">
-                 <size>
-                  <width>200</width>
-                  <height>40</height>
-                 </size>
-                </property>
-               </widget>
-              </item>
-              <item row="24" column="1">
-               <widget class="QLineEdit" name="lineEdit_4">
-                <property name="maximumSize">
-                 <size>
-                  <width>200</width>
-                  <height>40</height>
-                 </size>
                 </property>
                </widget>
               </item>
@@ -992,120 +1015,6 @@ border:0;
                 </property>
                </widget>
               </item>
-              <item row="9" column="0">
-               <widget class="QPushButton" name="pushButton_5">
-                <property name="maximumSize">
-                 <size>
-                  <width>200</width>
-                  <height>40</height>
-                 </size>
-                </property>
-                <property name="text">
-                 <string>Рассчитать</string>
-                </property>
-               </widget>
-              </item>
-              <item row="4" column="1">
-               <widget class="QLabel" name="milk_kg_ans_2">
-                <property name="maximumSize">
-                 <size>
-                  <width>200</width>
-                  <height>40</height>
-                 </size>
-                </property>
-                <property name="styleSheet">
-                 <string notr="true">background-color: rgb(167, 188, 255);</string>
-                </property>
-                <property name="text">
-                 <string/>
-                </property>
-               </widget>
-              </item>
-              <item row="14" column="1">
-               <widget class="QLineEdit" name="milk_gk_inp_13">
-                <property name="maximumSize">
-                 <size>
-                  <width>200</width>
-                  <height>40</height>
-                 </size>
-                </property>
-               </widget>
-              </item>
-              <item row="6" column="0">
-               <widget class="QLabel" name="calc_milk_title_6">
-                <property name="maximumSize">
-                 <size>
-                  <width>16777215</width>
-                  <height>40</height>
-                 </size>
-                </property>
-                <property name="font">
-                 <font>
-                  <weight>75</weight>
-                  <bold>true</bold>
-                 </font>
-                </property>
-                <property name="text">
-                 <string>Расчет содержания жира в сухом веществе (%)</string>
-                </property>
-               </widget>
-              </item>
-              <item row="7" column="1">
-               <widget class="QLineEdit" name="fat_cream_inp_2">
-                <property name="maximumSize">
-                 <size>
-                  <width>200</width>
-                  <height>40</height>
-                 </size>
-                </property>
-               </widget>
-              </item>
-              <item row="24" column="0">
-               <widget class="QLabel" name="label_3">
-                <property name="text">
-                 <string>Количество молока фактической жирности(кг)</string>
-                </property>
-               </widget>
-              </item>
-              <item row="27" column="0">
-               <widget class="QPushButton" name="pushButton_9">
-                <property name="maximumSize">
-                 <size>
-                  <width>200</width>
-                  <height>40</height>
-                 </size>
-                </property>
-                <property name="text">
-                 <string>Рассчитать</string>
-                </property>
-               </widget>
-              </item>
-              <item row="16" column="1">
-               <widget class="QLabel" name="somo_ans_2">
-                <property name="maximumSize">
-                 <size>
-                  <width>200</width>
-                  <height>40</height>
-                 </size>
-                </property>
-                <property name="styleSheet">
-                 <string notr="true">background-color: rgb(167, 188, 255);</string>
-                </property>
-                <property name="text">
-                 <string/>
-                </property>
-               </widget>
-              </item>
-              <item row="20" column="1">
-               <widget class="QLineEdit" name="lineEdit">
-                <property name="maximumSize">
-                 <size>
-                  <width>200</width>
-                  <height>40</height>
-                 </size>
-                </property>
-               </widget>
-              </item>
              </layout>
             </item>
            </layout>
@@ -1114,6 +1023,332 @@ border:0;
            <attribute name="title">
             <string>Раздел 3</string>
            </attribute>
+           <widget class="QWidget" name="layoutWidget">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>10</y>
+              <width>591</width>
+              <height>701</height>
+             </rect>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_8">
+             <property name="leftMargin">
+              <number>50</number>
+             </property>
+             <property name="topMargin">
+              <number>50</number>
+             </property>
+             <property name="rightMargin">
+              <number>50</number>
+             </property>
+             <property name="bottomMargin">
+              <number>50</number>
+             </property>
+             <item row="8" column="1">
+              <widget class="QLineEdit" name="sale_milk_inp">
+               <property name="maximumSize">
+                <size>
+                 <width>200</width>
+                 <height>40</height>
+                </size>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="1">
+              <widget class="QLineEdit" name="milk_1_inp">
+               <property name="maximumSize">
+                <size>
+                 <width>200</width>
+                 <height>40</height>
+                </size>
+               </property>
+              </widget>
+             </item>
+             <item row="8" column="0">
+              <widget class="QLabel" name="density_milk_5">
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="text">
+                <string>Сумма надоенного (проданного) молока фактической жирности (кг)</string>
+               </property>
+              </widget>
+             </item>
+             <item row="13" column="1">
+              <widget class="QLineEdit" name="density_inp_2">
+               <property name="maximumSize">
+                <size>
+                 <width>200</width>
+                 <height>40</height>
+                </size>
+               </property>
+              </widget>
+             </item>
+             <item row="9" column="1">
+              <widget class="QLabel" name="tow_milk_ans">
+               <property name="maximumSize">
+                <size>
+                 <width>200</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(167, 188, 255);</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+              </widget>
+             </item>
+             <item row="7" column="0">
+              <widget class="QLabel" name="obesity_milk_6">
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="text">
+                <string>Сумма 1% надоенного(проданного) молока (кг)</string>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="1">
+              <widget class="QLabel" name="pred_score_ans">
+               <property name="maximumSize">
+                <size>
+                 <width>200</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(167, 188, 255);</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="0" colspan="2">
+              <widget class="Line" name="line_7">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+              </widget>
+             </item>
+             <item row="13" column="0">
+              <widget class="QLabel" name="dry_matter_3">
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Плотность молока(*)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+               <property name="scaledContents">
+                <bool>false</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="10" column="0" colspan="2">
+              <widget class="Line" name="line_8">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+              </widget>
+             </item>
+             <item row="11" column="0" colspan="2">
+              <widget class="QLabel" name="calc_milk_title_11">
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>Перевод литров молока в килограммы (кг)</string>
+               </property>
+              </widget>
+             </item>
+             <item row="14" column="0">
+              <widget class="QPushButton" name="pushButton_6">
+               <property name="maximumSize">
+                <size>
+                 <width>200</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="text">
+                <string>Рассчитать</string>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="0">
+              <widget class="QLabel" name="fat_milk_3">
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="text">
+                <string>Жирность молока(%)</string>
+               </property>
+              </widget>
+             </item>
+             <item row="12" column="1">
+              <widget class="QLineEdit" name="l_milk_inp">
+               <property name="maximumSize">
+                <size>
+                 <width>200</width>
+                 <height>40</height>
+                </size>
+               </property>
+              </widget>
+             </item>
+             <item row="6" column="0">
+              <widget class="QLabel" name="calc_milk_title_10">
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>Расчет средней жирности надоенного(проданного) молока (%)</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="0">
+              <widget class="QLabel" name="milk_kg_3">
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="layoutDirection">
+                <enum>Qt::LeftToRight</enum>
+               </property>
+               <property name="text">
+                <string>Количество молока 1% (кг)</string>
+               </property>
+              </widget>
+             </item>
+             <item row="9" column="0">
+              <widget class="QPushButton" name="pushButton_11">
+               <property name="maximumSize">
+                <size>
+                 <width>200</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="text">
+                <string>Рассчитать</string>
+               </property>
+              </widget>
+             </item>
+             <item row="14" column="1">
+              <widget class="QLabel" name="l_to_kg_ans">
+               <property name="maximumSize">
+                <size>
+                 <width>200</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(167, 188, 255);</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="calc_milk_title_12">
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>Предварительный расчет кг</string>
+               </property>
+              </widget>
+             </item>
+             <item row="7" column="1">
+              <widget class="QLineEdit" name="milk_get_inp">
+               <property name="maximumSize">
+                <size>
+                 <width>200</width>
+                 <height>40</height>
+                </size>
+               </property>
+              </widget>
+             </item>
+             <item row="12" column="0">
+              <widget class="QLabel" name="somo_milk_3">
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="text">
+                <string>Количесттво молока(л)</string>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="1">
+              <widget class="QLineEdit" name="density_milk_inp">
+               <property name="maximumSize">
+                <size>
+                 <width>200</width>
+                 <height>40</height>
+                </size>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="0">
+              <widget class="QPushButton" name="pushButton_10">
+               <property name="maximumSize">
+                <size>
+                 <width>200</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="text">
+                <string>Рассчитать</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
           </widget>
          </widget>
         </item>
